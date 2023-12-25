@@ -4,7 +4,7 @@ import axios from "axios";
 import Home from "./Home";
 import Detail from "./Detail";
 import AddData from "./AddData";
-import EditData from "./editData";
+import EditData from "./EditData";
 
 function App() {
   axios.defaults.baseURL = "https://mution-api.vercel.app";
