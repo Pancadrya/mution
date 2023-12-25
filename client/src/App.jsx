@@ -7,7 +7,7 @@ import AddData from "./AddData";
 import EditData from "./editData";
 
 function App() {
-  axios.defaults.baseURL = "http://localhost:4040";
+  axios.defaults.baseURL = "https://mution-api.vercel.app";
   return (
     <BrowserRouter>
       <Routes>
