@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import NavigationBar from "./NavigationBar";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
@@ -18,6 +19,7 @@ export default function AddData() {
   const [position, setPosition] = useState("");
   const [bestSong, setBestSong] = useState("");
   const [description, setDescription] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -38,6 +40,7 @@ export default function AddData() {
       bestSong,
       description,
     });
+    navigate("/");
   };
 
   return (
