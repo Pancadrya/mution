@@ -20,9 +20,9 @@ export default function AddData() {
   const [description, setDescription] = useState("");
 
   const handleSubmit = async (event) => {
+    event.preventDefault();
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
-      event.preventDefault();
       event.stopPropagation();
     }
 
