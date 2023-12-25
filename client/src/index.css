@@ -1,0 +1,94 @@
+* {
+  font-family: "Kanit", sans-serif;
+}
+
+img {
+  pointer-events: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  font-size: 4rem;
+}
+
+.btn-red {
+  background-color: #f50057 !important;
+  color: white !important;
+  text-decoration: none;
+  transition: 0.3s !important;
+  border: none !important;
+}
+
+.btn-red:hover {
+  background-color: black !important;
+  color: white !important;
+  cursor: pointer !important;
+}
+
+.btn-danger {
+  background-color: white !important;
+  color: black !important;
+  text-decoration: none;
+  transition: 0.3s !important;
+  border: none !important;
+}
+
+.btn-danger:hover {
+  background-color: red !important;
+  color: white !important;
+  cursor: pointer !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #ff0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+.ctr {
+  font-size: 16px;
+  width: 90vw;
+  max-width: 37.5em;
+  padding: 3em 1.8em;
+  background-color: #1e293b;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.6em;
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.34);
+}
+
+.info {
+  position: relative;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  margin-top: 1.2em;
+}
+
+.poster {
+  width: 200px;
+  border-radius: 0.4em;
+}
+
+.details {
+  display: flex;
+  font-size: 0.95em;
+  gap: 1em;
+  justify-content: center;
+  color: #1c1917;
+  margin: 0.6em 0;
+  font-weight: 300;
+}
