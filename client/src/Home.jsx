@@ -33,7 +33,7 @@ export default function Home() {
       <div className="container my-4">
         <div className="row">
           {musicians.map((musician) => (
-            <div key={musician._id} className="col-3 mb-3">
+            <div key={musician._id} className="col-3 mb-4">
               <Card style={{ width: "18rem" }}>
                 <Card.Img variant="top" src={musicianPhoto} alt={musician.stageName} />
                 <Card.Body>

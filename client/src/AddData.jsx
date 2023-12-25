@@ -89,7 +89,7 @@ export default function AddData() {
                 </Form.Group>
                 <Form.Group as={Col} md="3" controlId="position">
                   <Form.Label>Position</Form.Label>
-                  <Form.Select value={position} onChange={(ev) => setPosition(ev.target.value)} required>
+                  <Form.Select value={position} defaultValue={"Vocalist"} onChange={(ev) => setPosition(ev.target.value)} required>
                     <option disabled>Choose</option>
                     <option value="Vocalist">Vocalist</option>
                     <option value="Guitarist">Guitarist</option>
@@ -115,10 +115,10 @@ export default function AddData() {
                 </Form.Group>
               </Row>
               <Button type="submit" className="py-2 px-3 rounded btn-red">
-                Submit form
+                Submit
               </Button>
               <a href="/" type="button" class="py-2 px-3 rounded btn-red ms-2">
-                Kembali
+                Back
               </a>
             </Form>
           </div>

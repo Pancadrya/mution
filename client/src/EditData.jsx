@@ -136,10 +136,10 @@ export default function EditData() {
                 </Form.Group>
               </Row>
               <Button type="submit" className="py-2 px-3 rounded btn-red">
-                Submit form
+                Submit
               </Button>
               <a href="/" type="button" class="py-2 px-3 rounded btn-red ms-2">
-                Kembali
+                Back
               </a>
             </Form>
           </div>
